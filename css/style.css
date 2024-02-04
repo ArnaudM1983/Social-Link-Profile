@@ -1,1 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+
+img{
+    height: 90px;
+    max-width: fit-content;
+    border-radius: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    margin-top: 30px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    width: 345px;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.button{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: bolder;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
