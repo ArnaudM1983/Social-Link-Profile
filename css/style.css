@@ -2,6 +2,11 @@
 
 body{
     background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    height: 100vh;
 }
 
 
@@ -11,12 +16,7 @@ img{
     border-radius: 50px;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    font-family: Inter;
-    margin-top: 30px;
-}
+
 
 .card{
     background-color: hsl(0, 0%, 12%);
